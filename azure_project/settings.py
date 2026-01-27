@@ -96,6 +96,14 @@ DATABASES = {
 # }
 
 
+# MongoDB Configuration
+MONGO_URI = 'mongodb://localhost:27017/'
+MONGO_DB_NAME = 'django_store_reviews'
+
+# MongoDB Configuration
+MONGO_URI = 'mongodb://localhost:27017/'
+MONGO_DB_NAME = 'django_store_reviews'
+
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 

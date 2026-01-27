@@ -3,3 +3,4 @@ django-cors-headers>=4.9.0
 djangorestframework>=3.16.1
 mssql-django>=1.6
 pyodbc>=5.1.0
+pymongo>=4.4.0
