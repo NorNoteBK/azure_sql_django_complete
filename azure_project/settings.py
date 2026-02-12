@@ -90,10 +90,10 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'free-sql-db-3265215',
+        'NAME': 'note1',
         'USER': 'note',
         'PASSWORD': '5^gnukytetoN',
-        'HOST': 'noppasin-sql.database.windows.net',
+        'HOST': 'note1.database.windows.net',
         'PORT': '1433', 
         'OPTIONS': {
             'driver': 'ODBC Driver 18 for SQL Server',
@@ -108,7 +108,7 @@ import urllib.parse
 mongo_username = urllib.parse.quote_plus('bearlab')
 mongo_password = urllib.parse.quote_plus('P@ss1234')
 # MONGO_URI = 'mongodb://localhost:27017/'
-MONGO_URI = f'mongodb+srv://{note}:{5^gnukytetoN}@noppasin-mongodb.global.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000'
+MONGO_URI = f'mongodb+srv://note:5^gnukytetoN@noppasin-mongodb.global.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000'
 MONGO_DB_NAME = 'django_store_reviews'
 
 # Password validation
