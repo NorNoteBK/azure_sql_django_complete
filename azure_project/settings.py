@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'free-sql-db-3265215',
+        'NAME': 'free-sql-db-3265215_2026-02-05T07-41Z',
         'USER': 'note',
         'PASSWORD': '5^gnukytetoN',
         'HOST': 'noppasin-sql.database.windows.net',
